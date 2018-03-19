@@ -1,0 +1,16 @@
+213c213
+<     Bash上で\ ``mvn archetype:generate``\ を実行する場合は、以下のように"\ ``^``\" を"\ ``\``\" に置き換えて実行すればよい。
+---
+>     Bash上で\ ``mvn archetype:generate``\ を実行する場合は、以下のように"\ ``^``\" を\ ``\``\ に置き換えて実行すればよい。
+219c219
+<          -DarchetypeArtifactId=macchinetta-web-blank-noorm-archetype\
+---
+>          -DarchetypeArtifactId=macchinetta-web-blank-noorm-thymeleaf-archetype\
+239c239
+<      -DarchetypeArtifactId=macchinetta-web-blank-noorm-archetype^
+---
+>      -DarchetypeArtifactId=macchinetta-web-blank-noorm-thymeleaf-archetype^
+257c257
+<      -DarchetypeArtifactId=macchinetta-web-blank-archetype^
+---
+>      -DarchetypeArtifactId=macchinetta-web-blank-thymeleaf-archetype^
